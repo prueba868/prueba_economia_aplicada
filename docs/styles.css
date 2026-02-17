@@ -1,5 +1,30 @@
 /* Estilos personalizados */
 
+/* Filtros de búsqueda */
+.faculty-filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.faculty-filters input,
+.faculty-filters select {
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.faculty-filters input:focus,
+.faculty-filters select:focus {
+  outline: none;
+  border-color: #1a3c6e;
+  box-shadow: 0 0 0 2px rgba(26, 60, 110, 0.15);
+}
+
 /* Introducción de la página de personal */
 .faculty-intro {
   text-align: center;

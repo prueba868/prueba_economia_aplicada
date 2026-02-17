@@ -7,106 +7,140 @@ title: "Personal"
 <p>Para consultar el directorio completo, visite la <a href="https://dea.uib.es/personal/">página oficial del departamento</a>.</p>
 </div>
 
+<div class="faculty-filters">
+<input type="text" id="search-name" placeholder="Buscar por nombre..." onkeyup="filterFaculty()">
+<select id="filter-area" onchange="filterFaculty()">
+<option value="">Todas las áreas</option>
+<option value="Economía Ambiental">Economía Ambiental</option>
+<option value="Economía del Turismo">Economía del Turismo</option>
+<option value="Economía Industrial">Economía Industrial</option>
+<option value="Economía Pública">Economía Pública</option>
+<option value="Econometría">Econometría</option>
+<option value="Teoría de Juegos">Teoría de Juegos</option>
+</select>
+</div>
+
 <div class="faculty-grid">
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="José Ignacio Aguiló Fuster" data-area="Economía del Turismo">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489756_jose-ignacio-aguilo.jpg" alt="José Ignacio Aguiló Fuster" onerror="this.src='https://via.placeholder.com/200?text=JA'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABDI0Njk/">Dr. José Ignacio Aguiló Fuster</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía del Turismo</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Paula María Aguiló Segura" data-area="Economía Industrial">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489757_paula-aguilo.jpg" alt="Paula María Aguiló Segura" onerror="this.src='https://via.placeholder.com/200?text=PA'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABDI0ODU/">Dra. Paula María Aguiló Segura</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía Industrial</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Antonio Luis Alcover Casasnovas" data-area="Economía del Turismo">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489758_alcover.jpg" alt="Antonio Luis Alcover Casasnovas" onerror="this.src='https://via.placeholder.com/200?text=AA'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/AAjI0/">Dr. Antonio Luis Alcover Casasnovas</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía del Turismo</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Tomás Del Barrio Castro" data-area="Econometría">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489760_del-barrio.jpg" alt="Tomás Del Barrio Castro" onerror="this.src='https://via.placeholder.com/200?text=TB'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABjIxMzEyNw/">Dr. Tomás Del Barrio Castro</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Econometría</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Ángel Bujosa Bestard" data-area="Economía Ambiental">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489761_bujosa.jpg" alt="Ángel Bujosa Bestard" onerror="this.src='https://via.placeholder.com/200?text=AB'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABjExMDU5NQ/">Dr. Ángel Bujosa Bestard</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía Ambiental</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Francisco Javier Capó Parrilla" data-area="Economía del Turismo">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489762_capo.jpg" alt="Francisco Javier Capó Parrilla" onerror="this.src='https://via.placeholder.com/200?text=FC'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABDI1ODE/">Dr. Francisco Javier Capó Parrilla</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía del Turismo</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Daniel Cardona Coll" data-area="Teoría de Juegos">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489763_cardona.jpg" alt="Daniel Cardona Coll" onerror="this.src='https://via.placeholder.com/200?text=DC'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABTExMDIy/">Dr. Daniel Cardona Coll</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Teoría de Juegos</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Magdalena Concepción Cladera Munar" data-area="Economía del Turismo">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489764_cladera.jpg" alt="Magdalena Concepción Cladera Munar" onerror="this.src='https://via.placeholder.com/200?text=MC'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/AAzM3MQ/">Dra. Magdalena Concepción Cladera Munar</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía del Turismo</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Marc Escrihuela Villar" data-area="Economía Industrial">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489765_escrihuela.jpg" alt="Marc Escrihuela Villar" onerror="this.src='https://via.placeholder.com/200?text=ME'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABjIxNzAyNg/">Dr. Marc Escrihuela Villar</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía Industrial</p>
 </div>
 </div>
 
-<div class="faculty-card">
+<div class="faculty-card" data-name="Jenny Carolina De Freitas Fernandes" data-area="Economía Pública">
 <div class="faculty-photo">
 <img src="https://www.uib.es/digitalAssets/489/489766_de-freitas.jpg" alt="Jenny Carolina De Freitas Fernandes" onerror="this.src='https://via.placeholder.com/200?text=JF'">
 </div>
 <div class="faculty-info">
 <h3><a href="https://www.uib.es/es/personal/ABjIxNzUyOA/">Dra. Jenny Carolina De Freitas Fernandes</a></h3>
-<p class="faculty-area">Economía Aplicada</p>
+<p class="faculty-area">Economía Pública</p>
 </div>
 </div>
 
 </div>
+
+<script>
+function filterFaculty() {
+  var searchName = document.getElementById('search-name').value.toLowerCase();
+  var filterArea = document.getElementById('filter-area').value;
+  var cards = document.querySelectorAll('.faculty-card');
+
+  cards.forEach(function(card) {
+    var name = card.getAttribute('data-name').toLowerCase();
+    var area = card.getAttribute('data-area');
+    var matchName = name.includes(searchName);
+    var matchArea = (filterArea === '') || (area === filterArea);
+
+    if (matchName && matchArea) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
