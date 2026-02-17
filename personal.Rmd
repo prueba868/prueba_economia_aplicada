@@ -2,4 +2,25 @@
 title: "Personal"
 ---
 
-<!-- Contenido de Personal -->
+## Personal del Departamento de Economía Aplicada
+
+A continuación se presenta una selección del personal docente e investigador del departamento.
+
+### Área de Economía Aplicada
+
+| Nombre | Área |
+|--------|------|
+| Dr. José Ignacio Aguiló Fuster | Economía Aplicada |
+| Dra. Paula María Aguiló Segura | Economía Aplicada |
+| Dr. Antonio Luis Alcover Casasnovas | Economía Aplicada |
+| Dr. Tomás Del Barrio Castro | Economía Aplicada |
+| Dr. Ángel Bujosa Bestard | Economía Aplicada |
+| Dr. Francisco Javier Capó Parrilla | Economía Aplicada |
+| Dr. Daniel Cardona Coll | Economía Aplicada |
+| Dra. Magdalena Concepción Cladera Munar | Economía Aplicada |
+| Dr. Marc Escrihuela Villar | Economía Aplicada |
+| Dra. Jenny Carolina De Freitas Fernandes | Economía Aplicada |
+
+---
+
+Para consultar el directorio completo del personal, visite la [página oficial del departamento](https://dea.uib.es/personal/).
