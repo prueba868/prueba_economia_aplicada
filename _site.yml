@@ -1,0 +1,17 @@
+name: "Departamento de Economía Aplicada - UIB"
+output_dir: "docs"
+navbar:
+  title: "Economía Aplicada - UIB"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Departamento"
+      href: departamento.html
+    - text: "Personal"
+      href: personal.html
+    - text: "Seminarios"
+      href: seminarios.html
+output:
+  html_document:
+    theme: cosmo
+    css: styles.css
